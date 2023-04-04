@@ -1,12 +1,13 @@
 {
-  "name": "server",
+  "name": "client",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "client1.js",
   "license": "ISC",
   "scripts": {
     "start:ts": "tsc -w",
-    "start:js": "nodemon ./dist/server.js",
+    "start:js": "nodemon ./dist/client1.js",
     "start": "concurrently npm:start:*"
   },
   "devDependencies": {
